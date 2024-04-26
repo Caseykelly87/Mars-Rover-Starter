@@ -59,7 +59,7 @@ describe("Rover class", function() {
           const testMess12 = new Message ("rovTest12", testCommand12)
           const roverTest12 = new Rover(12);
           const response12 = roverTest12.receiveMessage(testMess12)                                                                                            //  TEST 12  //
-console.log(response12)
+
           expect((response12.results)).toEqual([{completed: true}, {completed: false}]);
     })
 
